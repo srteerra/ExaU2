@@ -1,0 +1,7 @@
+{
+  "name": "ExaU2",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
