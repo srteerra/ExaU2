@@ -1,0 +1,22 @@
+.tasks__container {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 1fr 1fr 1fr;
+
+  .tasks__cont1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tasks__cont2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tasks-form__button {
+    width: 100%;
+    margin-top: 20px;
+  }
+}

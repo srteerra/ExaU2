@@ -1,0 +1,24 @@
+<ion-content>
+  <div class="counter__container">
+    <div class="counter">
+      <h2>{{ count }}</h2>
+    </div>
+    <div>
+      <ion-button
+        (click)="click()"
+        class="count__button"
+        color="danger"
+        shape="round"
+        >Click me</ion-button
+      >
+      <ion-button
+        (click)="reset()"
+        class="count__button"
+        fill="outline"
+        color="danger"
+        shape="round"
+        >Reset</ion-button
+      >
+    </div>
+  </div>
+</ion-content>

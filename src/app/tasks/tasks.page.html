@@ -1,0 +1,28 @@
+<ion-content>
+  <div class="tasks__container">
+    <div class="tasks__cont1">
+      <h3>Tasks Manager</h3>
+    </div>
+    <div class="tasks__cont2">
+      <form [formGroup]="formTasks">
+        <ion-item color="light">
+          <ion-input formControlName="task" placeholder="New task"></ion-input>
+        </ion-item>
+
+        <ion-button
+          (click)="presentAlert()"
+          class="tasks-form__button"
+          fill="outline"
+          color="danger"
+          shape="round"
+          >Save</ion-button
+        >
+      </form>
+    </div>
+    <div class="tasks__cont3">
+      <ion-item *ngFor="let task of listTasks">
+        <h4>{{ task }}</h4>
+      </ion-item>
+    </div>
+  </div>
+</ion-content>

@@ -1,0 +1,14 @@
+.counter__container {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 3fr 1fr;
+
+  .counter {
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+
+  .count__button {
+    width: 100%;
+  }
+}
